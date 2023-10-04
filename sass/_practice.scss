@@ -1,0 +1,80 @@
+.practice {
+    &__content {
+        height: 699px;
+        background: #FAFAFA
+    }
+
+    &__up {
+        height: 197px;
+        padding: 45px 0;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        width: 470px;
+        margin-left: 524px;
+    }
+
+    &__down {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        position: relative;
+    }
+
+    &__coll {
+        background: #FFFFFF;
+        width: 230px;
+        height: 342px;
+
+        img{
+            position: absolute;
+            bottom: 0;
+        }
+
+        .coll__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #252B42;
+            margin-top: 30px;
+            margin-left: 29px;
+            width: 129px;
+        }
+
+        .coll__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #737373;
+            margin-top: 15px;
+            width: 175px;
+            margin-left: 29px;
+        }
+    }
+
+}

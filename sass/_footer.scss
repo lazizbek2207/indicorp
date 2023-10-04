@@ -1,0 +1,139 @@
+.touch {
+    &__content {
+        height: 808px;
+        text-align: center;
+        background: #F3F3F3;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        padding-top: 80px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        width: 470px;
+        height: 140px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__coll {
+        width: 328px;
+        height: 333px;
+        background: #FFFFFF;
+        text-align: center;
+        padding: 50px 40px;
+    }
+
+    &__tekst {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        padding-top: 15px;
+    }
+
+    &__taytl {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        padding: 15px 0;
+    }
+
+    &__btn {
+        border: 1px solid #FFA62B;
+        border-radius: 5px;
+        padding: 10px 20px;
+        outline: none;
+        cursor: pointer;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFA62B;
+        background-color: #fff;
+    }
+
+    &__coll2 {
+        width: 328px;
+        height: 333px;
+        background: #252B42;
+        text-align: center;
+        padding: 50px 40px;
+        transition: 1s;
+    }
+    &__coll2:hover{
+        transform: scale(1.1);
+    }
+
+    &__tekst2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: white;
+        padding-top: 15px;
+    }
+
+    &__taytl2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: white;
+        padding: 15px 0;
+    }
+
+    &__btn2 {
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: white;
+        background-color: #252B42;
+    }
+}

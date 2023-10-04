@@ -1,0 +1,53 @@
+.foot {
+    &__content {
+        background: #16697A;
+        height: 272px;
+    }
+
+    &__row {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        padding: 51px 0;
+        gap: 30px;
+    }
+
+    &__coll {
+        width: 160px;
+        height: 170px;
+    }
+
+    &__body {
+        width: 321px;
+        padding-top: 20px;
+
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+
+            color: #FFFFFF;
+        }
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #FFFFFF;
+    }
+
+    .body__cont {
+        display: flex;
+
+        p {
+            padding-left: 10px;
+        }
+    }
+}

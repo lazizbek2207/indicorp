@@ -1,0 +1,52 @@
+.consult {
+    &__content {
+        height: 142px;
+        background: #FAFAFA;
+        padding: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__head {
+        height: 62px;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        padding-top: 10px;
+    }
+
+    &__btn {
+        background: #FFA62B;
+        border-radius: 5px;
+        padding: 15px 40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+}
